@@ -1,3 +1,0 @@
-Title: 80 spotkanie - Stephen Hawking i muszka owocówka. Jak nauczyć się prezentować...
-Datetime: 2016-01-19 17:30:00 +0100
------------------
