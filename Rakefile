@@ -3,5 +3,5 @@ require 'git'
 require 'meetup_client'
 
 task :generate_static_site do
-  puts "TEST!!!"
+  puts "TEST!!!!"
 end
