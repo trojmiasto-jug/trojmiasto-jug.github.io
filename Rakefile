@@ -7,10 +7,10 @@ require './mocks/sample-meetup.rb'
 task :generate_static_site do
   # read meatup events
 	MeetupClient.configure do |config|
-		config.api_key = 'SECRET_API_KEY'
+		config.api_key = ENV['MEETUP_KEY']
 	end
 
-	params = { 
+	params = {
 		group_urlname: 'Trojmiasto-Java-User-Group',
       	format: 'json'
 	}

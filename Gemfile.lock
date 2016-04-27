@@ -13,6 +13,3 @@ DEPENDENCIES
   erubis
   git
   meetup_client
-
-BUNDLED WITH
-   1.11.2
