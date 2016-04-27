@@ -19,8 +19,10 @@ task :generate_static_site do
   template = Erubis::Eruby.new(template)
 
   events['results'].map{|event| event['name']}.each { |title|
-    puts template.result(post_title: title)
+    post_file_name = title.gsub(/[\ \x00\/\\:\*\?\"<>\|]/, '_')
+    File.write("_posts/#{post_file_name}.md", template.result(post_title: title));
   }
+
   
   # /generate posts
 
