@@ -27,7 +27,9 @@ task :generate_static_site do
     post_file_name = datetime.strftime("%Y-%m-%d") + '-' + title.gsub(/[\#\ \x00\/\\:\*\?\"<>\|]/, '_')
     File.write("_posts/#{post_file_name}.md", template.result(post_title: title, date: datetime.to_s, description: description))
   }
+end
 
+task :push_force_kurwa do
   # push posts to git
   g = Git.open('.')
   g.config('user.name', 'Travis')
@@ -37,4 +39,8 @@ task :generate_static_site do
   g.add(:all=>true)
   g.commit('Travis commit with meetup events')
   g.push
+end
+
+task :travis => [:generate_static_site, :push_force_kurwa] do
+  puts "Travis generate site & github push"
 end

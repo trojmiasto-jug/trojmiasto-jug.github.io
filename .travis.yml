@@ -1,4 +1,4 @@
 language: ruby
 
-script: rake generate_static_site
+script: rake travis
 
