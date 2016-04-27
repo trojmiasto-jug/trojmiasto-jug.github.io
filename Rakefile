@@ -33,7 +33,7 @@ task :generate_static_site do
 #    end
 
   sh "git config --local user.name 'Travis'"
-  sh "git config --local user.email 'jug@travis-ci.org'"
+  sh "git config --local user.email 'kuba.marchwicki@gmail.com'"
 
   g = Git.open('.')
   g.add(:all=>true)
