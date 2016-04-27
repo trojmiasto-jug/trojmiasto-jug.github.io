@@ -3,5 +3,7 @@ layout: post
 title: 72 spotkanie - Is OAuth a good solution to secure your applications & API’s?
 date: 2015-06-02 17:30:00 +0200
 ---
-72 spotkanie - Is OAuth a good solution to secure your applications & API’s?
------------------
+# 72 spotkanie - Is OAuth a good solution to secure your applications & API’s?
+
+<p>Zapraszamy Was na kolejne spotkanie. Tym razem, za sprawą naszego nowego sponsora (<b>Onegini</b>) który przyczynił się do tego że przyjedzie do nas ich CTO: Stein Welberg</p> <p>Nie będzie marketingu, produktów - ale konkrety, czym jest OAuth i czy warto pokusić się o jego użycie. Jak w tytule: <b>Is OAuth a good solution to secure your applications &amp; API’s?</b></p> <p><br/><b>Kilka słów o prezentacji:<br/></b>Security, security security. You may think it is boring, but it is also very important to get right and have some understand of. Do you know how to you correctly secure your application and API's? There are many factors today that may influence your architecture; third-party access, easy integration, fine-grained authorizations, extensibility, etc. During this presentation I will explain to you whether it is a good choice to use OAuth in modern software architectures</p> <p><br/>Autor:<br/><b>Stein Welberg (</b><a href="https://twitter.com/steinwelberg" class="linkified">https://twitter.com/steinwelberg</a><b>) </b>has a great passion for technology. He has been active as a developer and architect for more than six years. Currently he is CTO of Onegini, a mobile security company. He co-designed and developed a security library for Android that helps developers to create secure mobile applications. Stein has spoken on a number of meetups about several topics, ranging from Continuous Delivery to OAuth 2.0. </p> <p>In his spare time he likes to play waterpolo and take photos. If you would like to contact Stein or learn more about him, please have a look at his LinkedIn profile.</p>
+

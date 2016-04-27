@@ -3,5 +3,7 @@ layout: post
 title: 73 meetup, Java and Performance: Biggest Mistakes
 date: 2015-07-21 17:30:00 +0200
 ---
-73 meetup, Java and Performance: Biggest Mistakes
------------------
+# 73 meetup, Java and Performance: Biggest Mistakes
+
+<p>As we're in holiday period and guest speaker is confirmed, we're announcing the meetup as early as possible :) Hope it'll help to book your time, especially that we're meeting on <b>Tuesday</b> this time.</p> <p>Java and Performance: Biggest Mistakes </p> <p>Have you ever wondered why your e-Banking system is down yet again for maintenance or what problem it was that caused your check-out to take forever until it terminated with a weird error message? </p> <p>Misconfigured O/R Mappers causing millions of SQL Queries and "leaking" DB connection leaks, excessive logging that consumes all Disk I/O, memory leaks that bring the JVM to crash every couple of hours or a forgotten XML configuration entry that causes millions of "Control-Flow Exceptions" that never make it to any log file. These are some of the problems that crashed large enterprise applications in the last 12 years (some even made it to national &amp; international news). In this session we learn how to avoid these top problems by automatically looking at key performance and architectural metrics along your continuous deployment pipeline </p> <p>&lt;a&gt;Andreas Grabner&lt;/a&gt;  </p> <p>Andreas is an application performance enthusiast  who has been working in the Java Performance area for the last 15 years at companies like Segue Software (Silk Product Line), Borland, dynaTrace, Compuware. He is a technology evangelist, developer advocate and is the guy who gets to help customers to fix their performance problems. He gives  back to the performance community through the blogs, conference talks and now with his new initiative which he calls "Performance Clinics. When not busy with performance problems he follows his second passion: salsa dancing. </p>
+
