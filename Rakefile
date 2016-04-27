@@ -25,4 +25,8 @@ task :generate_static_site do
   }
 
   # push posts to git
+  g = Git.open('.')
+  g.add(:all=>true)
+  g.commit('Travis commit with meetup events')
+  g.push
 end

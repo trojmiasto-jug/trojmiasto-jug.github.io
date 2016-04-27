@@ -1,3 +1,8 @@
 language: ruby
+
+env:
+  global:
+    secure: OUDk75GVgZMKfDHM7WKNXLWlzEFKelIapWddUmVmVN4KPw57OtHt91cyNg+ETDdQsJL/G8zE8VRArUv9lbcTaCqN+yydhYOMn6WAwhhplStjx912opWD9Ra1i3nAxuQYHaxQacnOnRWo5g9A7JJ94EvtI2GNu6GQlpDMAsCV7/Y=
+
 script: rake generate_static_site
 
