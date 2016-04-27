@@ -23,8 +23,5 @@ task :generate_static_site do
     File.write("_posts/#{post_file_name}.md", template.result(post_title: title));
   }
 
-  
-  # /generate posts
-
   # push posts to git
 end
