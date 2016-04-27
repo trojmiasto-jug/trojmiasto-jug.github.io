@@ -28,17 +28,11 @@ task :generate_static_site do
   }
 
   # push posts to git
-#    callable_attr :remote_url do
-#      url = `git config remote.origin.url`.strip.gsub(/^git:/, 'https:')
-#      next url.gsub(%r{^https://([^/]+)/(.*)$}, 'git@\1:\2') if ssh_key_file?
-#      next url.gsub(%r{^https://}, "https://#{ENV['GH_TOKEN']}@") if ENV.key? 'GH_TOKEN'
-#      next url
-#    end
-
-  sh "git config --local user.name 'Travis'"
-  sh "git config --local user.email 'kuba.marchwicki@gmail.com'"
-
   g = Git.open('.')
+  g.config('user.name', 'Travis')
+  g.config('user.email', 'jug@tavis-ci.org')
+  g.config('remote.origin.url', 
+    "https://#{ENV['GH_TOKEN']}@github.com/trojmiasto-jug/trojmiasto-jug.github.io.git")
   g.add(:all=>true)
   g.commit('Travis commit with meetup events')
   g.push
