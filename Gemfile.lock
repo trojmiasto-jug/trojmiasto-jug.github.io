@@ -7,8 +7,12 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   erubis
   git
   meetup_client
+
+BUNDLED WITH
+   1.11.2
