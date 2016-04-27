@@ -9,11 +9,15 @@ task :generate_static_site do
 
   # generate posts
   # puts "sample_meetup.results=" + SAMPLE_MEETUP['results'].to_s;
-  # /generate posts
+  # posts << SAMPLE_MEETUP['results'].first['title'];
 
   template = File.read("templates/post.md.erb")
   template = Erubis::Eruby.new(template)
-  puts template.result(post_title: "Test title")
+
+  SAMPLE_MEETUP['results'].map{|event| event['name']}.each { |title|
+    puts template.result(post_title: title)
+  }
+  # /generate posts
 
   # push posts to git
 end
