@@ -1,0 +1,9 @@
+---
+layout: post
+title: 66 spotkanie - Dive into Git! Jacek Jackowiak i Paweł Piskunowicz
+date: 2015-01-22 17:30:00 +0100
+---
+# 66 spotkanie - Dive into Git! Jacek Jackowiak i Paweł Piskunowicz
+
+<p>Zaczynamy nowy rok spotkaniem podwójnym, pod wszystko mówiącym tytułem: <b>Dive into Git!</b></p> <p>Mamy dwóch prelegentów: Pawła Piskunowicza (z EPAMu) i Jacka Jackowiaka (z YDP). Spotkanie skierowane jest zarówno do osób które przygodę z Gitem zaczynają (rozpoczniemy łagodnie) po tych którzy myślą że gita znają (i zgadza się, tylko myślą że znają).</p> <p><br/>Więcej o prelegentach:</p> <p><b>Jacek Jackowiak,</b> na co dzień programista wszystkiego co związane z JVM w YDP. Nałogowo migruję wszystkie stare SVNy do git ;) O swojej prezentacji pisze: zaprezentuję niektóre bardziej zaawansowane komendy git'a, pokażę nie zgubić danych i przybliżę odrobinę wewnętrzne mechanizmy git'a. Opowiem o różnych modelach pracy z repozytorium. Postaram się również pokazać, jak można pracować z gitem bez użycia gita.</p> <p><br/><b>Paweł Piskunowicz,</b> programuję od kiedy dostałem mój pierwszy komputer - Atari 65XE. Miałem okazję tworzyć oprogramowanie w bardzo różnych narzędziach, od kiedy zacząłem programować w Javie (10 lat temu) tak już zostało. Aktualnie pracuję w EPAM Systems.<br/>Oddajmy głos Pawłowi: wprowadzę Was w świat GITa. Postaram się ułatwić zrozumienie go szczególnie tym, którzy korzystają z innego repozytorium np z SVN'a. Pokażę jak "podłączyć się" do repozytorium, pobrać zmiany i oddać własne. Zaprezentuję jak selektywnie oddać coś do repozytorium, jak odłożyć coś "na bok" i jak można wykorzystać branche w codziennej pracy. Jak nam wystarczy czasu opowiem krótko o zmianie historii repozytorium.</p> <p><br/>Szczególnie zachęcamy do przyjścia po poza wyśmienitą prelekcją będziemy losować bilet na GeeCON TDD (30 stycznia w Poznaniu).</p>
+

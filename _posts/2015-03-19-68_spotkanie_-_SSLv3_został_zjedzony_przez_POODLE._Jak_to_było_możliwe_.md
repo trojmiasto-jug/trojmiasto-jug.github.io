@@ -1,0 +1,9 @@
+---
+layout: post
+title: 68 spotkanie - SSLv3 został zjedzony przez POODLE. Jak to było możliwe?
+date: 2015-03-19 17:30:00 +0100
+---
+# 68 spotkanie - SSLv3 został zjedzony przez POODLE. Jak to było możliwe?
+
+<p>Naszym prelegentem będzie tym razem Maciej Chmielarz.<br/><b>Info od prelegenta</b>:<br/>Podczas prezentacji opowiem o niedawno ujawnionym krytycznym błędzie w protokole SSLv3. Koncepcja ataku została nazwana POODLE (Padding Oracle on Downgraded Legacy Encryption) i stanowi poważnene zagrożenie dla serwisów, które wciąż dopuszczają stosowanie tego protokołu. Przedstawię podstawy trybów pracy symetrycznych szyfrów blokowych, zasady zapewniania integralności zaszyfrowanych wiadomości oraz koncepcję ataków z wykorzystaniem padding oracle. To stworzy podstawy do omówienia błędów w konstrukcji protokołu SSLv3, które umożliwiają przeprowadzenie wspomnianego ataku. Przedstawię sposób, w jaki atakujący może przeprowadzić skuteczny i stosunkowo prosty atak na szyfrowaną transmisję prowadzoną po protokole HTTPS. Na koniec przeststawię inny niedawny problem bezpieczeństwa, będący wynikiem niewłaściwego zastosowania kryptografii symetrycznej.</p> <p><b>Prelegent o sobie</b>:<br/>Testowaniem oprogramowania zajmuję się od 2008 roku. Obecnie pracuję dla IVONA Software, trójmiejskiej firmy produkującej światowej klasy syntezator mowy, będącej częścią amerykańskiej korporacji Amazon. Przedtem przez kilka lat pracowałem dla Asseco Poland nad rozwojem największego projektu informatycznego w tej części Europy, a karierę rozpocząłem w gdańskim oddziale firmy Acxiom. Poza tym od 2012 roku prowadzę studia podyplomowe z testowania oprogramowania na Wyższej Szkole Bankowej w Gdańsku, a od 2013 roku współpracuję z SJSI i aktywnie uczestniczę w organizacji konferencji Testwarez. Dodatkowo po godzinach zajmuję się organizacją i sędziowaniem rajdów samochodowych oraz innych imprez sportu motorowego.</p>
+

@@ -1,0 +1,9 @@
+---
+layout: post
+title: 69 spotkanie -  Spring; z czym to się je? Krzysztof Dziekiewicz
+date: 2015-04-09 17:30:00 +0200
+---
+# 69 spotkanie -  Spring; z czym to się je? Krzysztof Dziekiewicz
+
+<p>Zapraszamy na kolejne spotkanie TJUGa. Tym razem klasyka - Spring. Po flashtalk, spring-boot itp, zapraszamy na spotkanie dla wszystkich tych którzy ze Springiem się jeszcze nie zetknęli, a chcieliby zacząć. Ale oddajmy głos prowadzącemu:</p> <p><br/>Tematem prezentacji będzie Spring 3 z odniesieniami do wersji 4. Prelekcja raczej skierowana do tych, którzy się zastanawiają, jak to ugryźć, niż dla starych wyjadaczy. Zwłaszcza, że wykład odzwierciedla moją drogę obłaskawienia tego zwierza począwszy od wiedzy zerowej do etapu, gdy właściwie przestaje się zauważać, że pracuje się ze Springiem. Będzie subiektywnie, bo powiem o tym, co mnie urzekło w Springu i o tym, jak się zastanawiałem, jaka jest zawartość Springa w Springu. Będzie o tym, że Spring daje ci wiele możliwości, ale nie powie, które są najlepsze. Oprócz podstaw będzie trochę smaczków. Pokażę co na przykład można zrobić ze SpEL'em i postaram się pokazać ludzką twarz AOP czyli programowania aspektowego. Będzie trochę XML'a, ale będzie też o tym, jak się pozbywać tego XML'a zgodnie z duchem Spring 4.<br/>Jeśli Springa porównać do kłębka wełny, to mam nadzieję, że po prezentacji łatwiej będzie znaleźć koniec nitki.</p> <p><b>Krzysiek o sobie:</b></p> <p>Programista od zarania dziejów kiedy istniały takie cuda jak Timex Sinclair 2045 a programy zdarzało się pisać na kartce papieru. Po studiach na PG czasowy epizod z Visual Fox Pro, by potem 13 lat spędzić w Wirtualnej Polsce min. przy rozwoju webmail'a <a href="http://poczta.wp.pl">poczta.wp.pl</a> używając PHP i Java. Aktualnie od półtora roku w Luthansa Systems Poland jako programista Java EE. Hobbystycznie zauroczony językiem funkcyjnym Scala.</p>
+

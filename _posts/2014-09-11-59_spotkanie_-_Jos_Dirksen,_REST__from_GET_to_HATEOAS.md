@@ -1,0 +1,9 @@
+---
+layout: post
+title: 59 spotkanie - Jos Dirksen, REST: from GET to HATEOAS
+date: 2014-09-11 17:30:00 +0200
+---
+# 59 spotkanie - Jos Dirksen, REST: from GET to HATEOAS
+
+<p>Tak, zaczynamy spotykać się po dwa razy w miesiącu. Tym razem spotkanie po Angielsku z gościem z zagranicy.</p> <p><br/><b>Abstract:</b></p> <p>REST is slowly becoming the standard way to expose APIs for your application. Whether it's an internally used application or a high-available cloud based service, REST APIs are often the way to go. There are many frameworks out there that help you in building REST APIs: Rails, Play, JAX-RS etc. But, by just exposing your resources using the standard HTTP verbs, you aren't there yet. Building a great REST API that will be easy to use by your clients, is secure, supports links and can be easily maintained (e.g versioned), is more involved. This session will explain how you can create a easy to use, secure REST API using HATEOAS (Hypermedia as the Engine of Application State), link relations and a HMAC based authentication scheme. This session will show, using a concrete example, how to get your REST API to the next level. This session doesn't show how to implement these schemes with a specific framework, but focusses on how to use and apply these concepts in a practical example and how your clients will interact with your API.</p> <p><b>Bio:</b></p> <p>Jos Dirksen, jest Enterprise Architektem w Malmbergu. Malmberg to najwieksze holenderskie wydawnictwo edukacyjne, przodujące w cyfryzacji edukacji. Jos jest speakerem (devoxx, GOTO Amsterdam) oraz autorem książek:<br/>* Learning Three.js: The JavaScript 3D Library for WebGL (Packt)<br/>* SOA Governance in Action (Manning)<br/>* Open Source ESBs in Action (Manning)<br/>Prowadzi także bloga <a href="http://www.smartjava.org/"><a href="http://www.smartjava.org/" class="linkified">http://www.smartjava.org/</a></a> (chociaż ostatnio jest to bardziej smartjavascript ;)</p>
+
