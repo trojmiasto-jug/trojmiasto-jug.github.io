@@ -24,7 +24,7 @@ task :generate_static_site do
     title = event['name']
     description = event['description']
     datetime = Time.at(event['time'] / 1000);
-    post_file_name = datetime.strftime("%Y-%m-%d") + '-' + title.gsub(/[\ \x00\/\\:\*\?\"<>\|]/, '_')
+    post_file_name = datetime.strftime("%Y-%m-%d") + '-' + title.gsub(/[\#\ \x00\/\\:\*\?\"<>\|]/, '_')
     File.write("_posts/#{post_file_name}.md", template.result(post_title: title, date: datetime.to_s, description: description))
   }
 
