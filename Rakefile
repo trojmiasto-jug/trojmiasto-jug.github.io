@@ -10,7 +10,8 @@ task :generate_static_site do
 
 	params = {
 		group_urlname: 'Trojmiasto-Java-User-Group',
-    format: 'json'
+      	format: 'json',
+      	status: 'upcoming,past'
 	}
 	meetup_api = MeetupApi.new
 	events = meetup_api.events(params)
