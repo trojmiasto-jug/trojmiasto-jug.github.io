@@ -22,25 +22,16 @@ task :generate_static_site do
 
   events['results'].each { |event|
     title = event['name']
+	# Header may not contain colon sign in title as jekyll will mess up whole page. 
+	# Colon needs to be escaped either as HTML entity: '&#58;' or whole title must be wrapped in quotes
+	#
+	# Former is good as allows to use only one variable, but '&#58;' will show up in page title, which is not looking nice.
+	# Later approach requires two variables, but allows for control of how we want to display the page
+    escaped_title = if title.include? ":" then '\''+title+'\'' else title end
+
     description = event['description']
     datetime = Time.at(event['time'] / 1000);
     post_file_name = datetime.strftime("%Y-%m-%d") + '-' + title.gsub(/[\#\ \x00\/\\:\*\?\"<>\|]/, '_')
-    File.write("_posts/#{post_file_name}.md", template.result(post_title: title, date: datetime.to_s, description: description))
+    File.write("_posts/#{post_file_name}.md", template.result(post_title: title, escaped_title: escaped_title, date: datetime.to_s, description: description))
   }
-end
-
-task :push_force_kurwa do
-  # push posts to git
-  g = Git.open('.')
-  g.config('user.name', 'Travis')
-  g.config('user.email', 'jug@tavis-ci.org')
-  g.config('remote.origin.url', 
-    "https://#{ENV['GH_TOKEN']}@github.com/trojmiasto-jug/trojmiasto-jug.github.io.git")
-  g.add(:all=>true)
-  g.commit('Travis commit with meetup events')
-  g.push
-end
-
-task :travis => [:generate_static_site, :push_force_kurwa] do
-  puts "Travis generate site & github push"
 end
